@@ -53,7 +53,7 @@ public class QuoteGeneratorServiceImpl implements QuoteGeneratorService {
                     quote.setInstant(Instant.now());
                     return quote;
                 })
-                .log("da.springframework.service.QuoteGeneratorService");
+                .log("QuoteGeneratorService");
     }
 
     private Quote updateQuote(Quote quote) {
